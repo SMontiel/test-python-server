@@ -16,7 +16,7 @@ def create_app():
     def index():
         """Example route."""
         message = f"Hello from {socket.gethostname()}. Salvador is here! Loviu, cosi <3"
-        return {"message": "Indio oaxaqueño .l."}, 200
+        return {"message": "Indio oaxaquenio .l."}, 200
 
     return app
 
